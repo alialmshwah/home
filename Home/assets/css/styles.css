@@ -362,9 +362,6 @@ nav ul li a{
   font-size: var(--smaller-font-size);
 }
 
-.specs__data:nth-child(1), .specs__data:nth-child(4) {
-  margin-left: 1.5rem;
-}
 
 .specs__img {
   width: 250px;
