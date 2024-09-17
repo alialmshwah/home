@@ -524,6 +524,10 @@ width: 500px;
   .case__img{
     display: none;
   }
+  .home__title {
+  font-size: 40px;
+}
+}
 }
 
 .subcategory.active,
