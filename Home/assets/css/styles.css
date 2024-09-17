@@ -816,7 +816,7 @@ width: 500px;
   }
   .home__title {
     top: -4rem;
-    font-size: var(--bigger-font-size);
+    font-size: 40px;
   }
   .home__data {
     padding-top: 1rem;
