@@ -522,9 +522,6 @@ width: 500px;
   margin: auto;
   }
   .case__img{
-    top: 1650px;
-    left: 30px;
-    width: 200px;
     display: none;
   }
 }
