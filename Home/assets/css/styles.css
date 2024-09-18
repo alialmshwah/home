@@ -239,6 +239,11 @@ nav ul li a{
 .home__header {
   position: relative;
 }
+
+@font-face{
+  font-family: MYFONT;
+  src: url(GOOD.ttf);
+}
 .home__title {
   line-height: 6rem;
   font-size: 70px;
@@ -249,7 +254,8 @@ nav ul li a{
   color: #b6b6b6;
   /* font-family: "Rakkas", serif; */
 /*     font-family: "Mirza", serif; */
-    font-family: "Aref Ruqaa", serif;
+/*     font-family: "Aref Ruqaa", serif; */
+    font-family: MYFONT;
 }
 
  .left img {
