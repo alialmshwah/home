@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+    <html lang="ar">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,76 +13,260 @@
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="assets/css/styles.css">
 
-        <title>products</title>
+        <title>Responsive landing page headphones</title>
     </head>
-<body>
-    
-
+    <body>
         <!--=============== HEADER ===============-->
  
-        <nav>
+            <nav>
                
-            <div class="logo">
-                <img src="assets/img/logo.png" alt="">
-              </div>
-       
-            <ul id="menuList">
-                <div class="cloes">
-                    <i class="fa-solid fa-x" onclick="cloes()"></i>
+                <div class="logo">
+                    <img src="assets/img/logo.png" alt="">
+                  </div>
+           
+                <ul id="menuList">
+                    <div class="cloes">
+                        <i class="fa-solid fa-x" onclick="cloes()"></i>
+                    </div>
+                    <li><a href="#home">الصفحة الرئيسية</a></li>
+                    <li><a href="#specs">خدماتي</a></li>
+                    <li><a href="#case">   ما الذي يميزني</a></li>
+                    <li><a href="#products">أعمالي</a></li>
+                </ul>
+          
+                <div class="menu-icon">
+                    <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
                 </div>
-                <li><a href="index.html#home">الصفحة الرئيسية</a></li>
-                <li><a href="index.html#specs">خدماتي</a></li>
-                <li><a href="index.html#case">   ما الذي يميزني</a></li>
-                <li><a href="index.html#products">أعمالي</a></li>
-            </ul>
+            </nav>
+        
       
-            <div class="menu-icon">
-                <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
-            </div>
-        </nav>
-        <div class="img-gallery">
-            <h2 class="section__title section__title-gradient products__line">
-                مــنتــجات
-            </h2>
-            <div class="gallery">
-                <div class="cardgallery">
-                    <img src="https://i.ibb.co/r3mPnhK/25-img-pro.jpg" alt="" >
-                    <div class="i">
-                    
-                    </div>
-                </div>
-                <div class="cardgallery">
-                    <img src="https://i.ibb.co/SxdTjVm/21-img-pro.jpg" alt="" >
-                    <div class="i">
+
+        <main class="main">
+            <!--=============== HOME ===============-->
+            <section class="home section" id="home">
+              
+                 
+                <div class="home__container container grid">
                    
+                    <div>
+                        <div class="left">
+                            <img class="img-l" src="assets/img/logo.png" alt="Logo">
+                        </div>
+                     
                     </div>
-                </div>
-                <div class="cardgallery">
-                    <img src="https://i.ibb.co/q9rZB0V/24-img-pro.jpg" alt="" >
-                    <div class="i">
+                    
+                    <div class="home__data">
+                        <div class="home__header">
+                            <h1 class="home__title"> علي المشوّح</h1>
+<!--                             <h2 class="home__subtitle"> Photographic</h2> -->
+                        </div>
+
+                        <div class="home__footer">
+                            <h3 class="home__title-description">نبذة عني</h3>
+                            <p class="home__description">المصور علي هو فنان موهوب يلتقط الجمال في كل لحظة. بفضل حسه الفني العالي واهتمامه بالتفاصيل،
+                                 يقدم علي خدمات تصوير متنوعة تشمل تصوير المناسبات الخاصة، الجلسات الشخصية، والتصوير الفني. 
+                                 يحرص دائمًا على تقديم تجربة فريدة لكل عميل، مما يجعله الخيار الأمثل لمن يبحث عن جودة وإبداع في كل لقطة
+                            </p>
+                            <a href="https://wsend.co/966557461264" class="button button--flex">
+                                <span class="button--flex">
+                                    <i class="fa-brands fa-whatsapp"></i> تواصل معنا  الآن
+                                </span>
                         
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="cardgallery">
-                    <img src="https://i.ibb.co/zV3jynv/23-img-pro.jpg" alt="" >
-                    <div class="i">
+            </section>
+            
+         
+
+            <!--=============== SPECS ===============-->
+            <section class="specs section grid" id="specs">
+                <h2 class="section__title section__title-gradient">خدماتي</h2>
+
+                <div class="specs__container container grid">
+                    <div class="specs__content grid">
+                        <div class="specs__data">
+                            <i class="fa-regular fa-image"></i>
+                            <h3 class="specs__title"> التصوير في المناسبات </h3>
+                            <span class="specs__subtitle">التصوير في المناسبات</span>
+                        </div>
+    
+                        <div class="specs__data">
+                            <i class="fa-solid fa-handshake"></i>
+                            <h3 class="specs__title">تصوير تغطيات</h3>
+                            <span class="specs__subtitle">التصوير في التغطيات </span>
+                        </div>
+    
+                        <div class="specs__data">
+                            <i class="fa-brands fa-shopify"></i>
+                            <h3 class="specs__title">تصوير منتجات</h3>
+                            <span class="specs__subtitle">تصوير المنتجات باحترافية</span>
+                        </div>
 
                     </div>
-                </div>
-                <div class="cardgallery">
-                    <img src="https://i.ibb.co/Z1DmQk7/26-img-pro.jpg" alt="" >
-                    <div class="i">
-                
+                    
+                    <div>
+                        <img src="https://i.ibb.co/mXvpc2b/specs.png" alt="" class="specs__img">
                     </div>
                 </div>
-                <div class="cardgallery">
-                    <img src="https://i.ibb.co/nRJ4CVT/22-img-pro.jpg" alt="" >
-                    <div class="i">
-                   
+            </section>
+
+            <!--=============== CASE ===============-->
+            <section class="case section grid" id="case">
+                <h2 class="section__title section__title-gradient fast">سرعة الانجاز</h2>
+
+                <div class=" container grid one">
+                    <div>
+                        <img src="https://i.ibb.co/1fX96q9/case.png" alt="" class="case__img">
+                    </div>
+
+                    <div class="case__data">
+                        <p class="case__description">
+                          أهتم بتسليم الصور بعد المناسبة بأقل من ٢٤ ساعة كحد أقصى ، مع جودة ودقة في 
+                          الأداء في كل لحظة 
+                        </p>
+                        <a href="https://wsend.co/966557461264" class="button button--flex">
+                            <i class="fa-brands fa-whatsapp"></i>   تواصل معنا  الآن
+                        </a>
                     </div>
                 </div>
-          </div>
-         </div>
+            </section>
+
+            <!--=============== DISCOUNT ===============-->
+            <section class="discount section">
+                <div class="discount__container container grid">
+                    <div class="discount__animate">
+                        <h2 class="discount__title">  أحصل على افضل الصور <br>  دقة وجودة</h2>
+                        <p class="discount__description">أحصل على أفضل الصور.خصم %50 </p>
+                        <a href="#" class="button button--flex">
+                            <i class="fa-brands fa-whatsapp"></i>   تواصل معنا  الآن
+                        </a>
+                    </div>
+
+                    <img src="https://i.ibb.co/z2cMvMW/discount.png" alt="" class="discount__img">
+                </div>
+            </section>
+
+        <!--=============== PRODUCTS ===============-->
+        <section class="products section" id="products">
+
+      
+                <!-- filter Images -->
+                 <div class="img-gallery">
+                    <h2 class="section__title section__title-gradient products__line">
+                        مناسباتكم
+                    </h2>
+                    <div class="gallery">
+                        <div class="cardgallery">
+                            <img src="https://i.ibb.co/h8RkJ76/1-img-pro.jpg" alt="" >
+                            <div class="i">
+                        
+                            </div>
+                        </div>
+                        <div class="cardgallery">
+                            <img src="https://i.ibb.co/1QhmvHc/3-img-pro.jpg" alt="" >
+                            <div class="i">
+                        
+                            </div>
+                        </div>
+                        <div class="cardgallery">
+                            <img src="https://i.ibb.co/xG2bdcR/2-img-pro.jpg" alt="" >
+                            <div class="i">
+                    
+                            </div>
+                        </div>
+                        <div class="cardgallery">
+                            <img src="https://i.ibb.co/D5s7jk4/4-img-pro.jpg" alt="" >
+                            <div class="i">
+                        
+                            </div>
+                        </div>
+                  </div>
+                 <a href="Youroccasions.html"><button><span><i class="fa-solid fa-circle-left"></i> </span> المزيد </button></a> 
+                 </div>
+                 <div class="img-gallery  gray">
+                    <h2 class="section__title section__title-gradient products__line">
+                        يوميات فوتوغرافي
+                    </h2>
+                    <div class="gallery">
+                        <div class="cardgallery">
+                            <img src="https://i.ibb.co/B4pwwL5/1.jpg" alt="" >
+                            <div class="i">
+                                <p>صور من #حي_الطريف_التراثي </p>
+                                <p class="data"> 27/1/2024 <i class="fa-regular fa-calendar"></i></p>
+                            </div>
+                        </div>
+                        <div class="cardgallery">
+                            <img src="https://i.ibb.co/zG1w8HL/2.jpg" alt="" >
+                            <div class="i">
+                                  <p>صور من #حي_الطريف_التراثي </p>
+                                <p class="data"> 27/1/2024 <i class="fa-regular fa-calendar"></i></p>
+                            </div>
+                        </div>
+                        <div class="cardgallery">
+                            <img src="https://i.ibb.co/fF1Z9vv/4.jpg" alt="" >
+                            <div class="i">
+                               <p>صور من #حي_الطريف_التراثي </p>
+                                <p class="data">27/1/2024 <i class="fa-regular fa-calendar"></i></p>
+                            </div>
+                        </div>
+                        <div class="cardgallery">
+                            <img src="https://i.ibb.co/cr47Nz1/5.jpg" alt="" >
+                            <div class="i">
+                                        <p>صور من #حي_الطريف_التراثي </p>
+                                <p class="data"> 27/1/2024 <i class="fa-regular fa-calendar"></i></p>
+                            </div>
+                        </div>
+                  </div>
+                 <a href="memoirs.html"><button><span><i class="fa-solid fa-circle-left"></i> </span> المزيد </button></a> 
+                 </div>
+
+                 <div class="img-gallery">
+                    <h2 class="section__title section__title-gradient products__line">
+                        مــنتــجات
+                    </h2>
+                    <div class="gallery">
+                        <div class="cardgallery">
+                            <img src="https://i.ibb.co/r3mPnhK/25-img-pro.jpg" alt="" >
+                            <div class="i">
+                              
+                            </div>
+                        </div>
+                        <div class="cardgallery">
+                            <img src="https://i.ibb.co/SxdTjVm/21-img-pro.jpg" alt="" >
+                            <div class="i">
+                       
+                            </div>
+                        </div>
+                        <div class="cardgallery">
+                            <img src="https://i.ibb.co/q9rZB0V/24-img-pro.jpg" alt="" >
+                            <div class="i">
+                  
+                            </div>
+                        </div>
+                        <div class="cardgallery">
+                            <img src="https://i.ibb.co/zV3jynv/23-img-pro.jpg" alt="" >
+                            <div class="i">
+          
+                            </div>
+                        </div>
+                  </div>
+                 <a href="Products.html"><button><span><i class="fa-solid fa-circle-left"></i> </span> المزيد </button></a> 
+                 </div>
+              <!-- fullscreen img preview box -->
+              <div class="preview-box">
+                <div class="details">
+                  <span class="title">Image Category: <p></p></span>
+                  <span class="icon fas fa-times"></span>
+                </div>
+                <div class="image-box"><img src="" alt=""></div>
+              </div>
+              <div class="shadow"></div>
+           
+        </section>
+        </main>
+
         <!--=============== FOOTER ===============-->
         <footer class="footer section">
             <div class="footer__container container grid">
@@ -115,16 +299,16 @@
                     <ul class="footer__links">
                     
                         <li>
-                            <a href="index.html#home" class="footer__link">الرئيـــسية</a>
+                            <a href="#home" class="footer__link">الرئيـــسية</a>
                         </li>
                         <li>
-                            <a href="index.html#specs" class="footer__link">خــــدمـــاتي</a>
+                            <a href="#specs" class="footer__link">خــــدمـــاتي</a>
                         </li>
                         <li>
-                            <a href="index.html#case" class="footer__link"> ما الذي يميزني</a>
+                            <a href="#case" class="footer__link"> ما الذي يميزني</a>
                         </li>
                         <li>
-                            <a href="index.html#products" class="footer__link">أعــمــالــــي</a>
+                            <a href="#products" class="footer__link">أعــمــالــــي</a>
                         </li>
                     </ul>
                 </div>
