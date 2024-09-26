@@ -592,8 +592,14 @@ width: 500px;
 .gray{
   background-color: #f7f7f7;
 }
+.i .data{
+  padding-top: 5px;
+  border-top: 1px solid #e2e1e1;
+  color: #b7b7b7 !important;
+  font-size: 15px;
+  text-align: right ;
+}
 .cardgallery .i {
-  padding: 20px;
   width: 300px;
   flex: 1;
 }
@@ -601,13 +607,15 @@ width: 500px;
   width: 100%;
   height: 200px;
   object-fit: cover;
-  border-radius: 12px 12px 0 0 ;
+  border-radius: 12px;
 }
 .cardgallery  .i p{
   margin: auto;
   text-align: center;
-  color: #000000;
+  color: #333333;
   line-height: 2;
+  padding-bottom: 5px;
+  padding-top: 20px;
 }
 .image span {
   display: flex;
