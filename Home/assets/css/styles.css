@@ -75,12 +75,12 @@ body {
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background-color: var(--body-color);
+  background-color:  #ffffff;
   color: var(--text-color);
 }
 
 h1, h2, h3 {
-  color: var(--title-color);
+  color: var(--body-color);
 }
 
 ul {
@@ -115,6 +115,8 @@ img {
   font-size: var(--bigger-font-size);
   text-align: center;
   margin-bottom: var(--mb-2-5);
+  color: #635e54;
+  margin-bottom:60px;
 }
 
 
@@ -143,7 +145,7 @@ nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 30px;
+  padding-top: 20px;
   padding-left: 40px;
   padding-right: 40px;
 }
@@ -162,7 +164,7 @@ nav ul li{
 
 nav ul li a{
   text-decoration: none;
-  color: #fff;
+  color: #000000;
 }
 
 .menu-icon{
@@ -170,13 +172,16 @@ nav ul li a{
 }
 
 .menu-icon i{
-  color: #fff;
+  color: #000000;
   font-size: 30px;
 }
 .cloes{
   display: none;
 }
 @media (max-width:600px) {
+  .fast{
+    margin: 0;
+  }
   nav{
     padding-top: 0;
   }
@@ -252,7 +257,7 @@ nav ul li a{
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  color: #b6b6b6;
+  color: #635e54;
   /* font-family: "Rakkas", serif; */
 /*     font-family: "Mirza", serif; */
 /*     font-family: "Aref Ruqaa", serif; */
@@ -281,7 +286,7 @@ font-family: "Noto Kufi Arabic", sans-serif;
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  color: #a0a0a0;
+  color: rgb(0 0 0 / 50%);
 
 }
 
@@ -295,6 +300,7 @@ font-family: "Noto Kufi Arabic", sans-serif;
 .home__description {
   margin-bottom: var(--mb-2-5);
   line-height: var(--text-line-height);
+  color: #737373;
 }
 
 
@@ -331,6 +337,7 @@ font-family: "Noto Kufi Arabic", sans-serif;
   display: inline-flex;
   align-items: center;
   column-gap: .75rem;
+  font-family: "Noto Kufi Arabic", sans-serif;
 }
 
 /*=============== SPONSOR ===============*/
@@ -363,7 +370,9 @@ font-family: "Noto Kufi Arabic", sans-serif;
   font-size: 1.2rem;
   color: var(--white-color);
 }
-
+.specs__data i{
+color: #4f4f4f;
+}
 .specs__title {
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
@@ -371,6 +380,7 @@ font-family: "Noto Kufi Arabic", sans-serif;
 
 .specs__subtitle {
   font-size: var(--smaller-font-size);
+  color: #4f4f4f;
 }
 
 
@@ -408,12 +418,13 @@ width: 500px;
 .case__description {
   margin-bottom: var(--mb-1-5);
   line-height: var(--text-line-height);
+  color: #4f4f4f;
 }
 
 /*=============== DISCOUNT ===============*/
 .discount__container {
   position: relative;
-  background-color: var(--container-color);
+  background-color:#333;
   padding: 2rem 1.5rem;
   border-radius: .75rem;
 }
@@ -421,6 +432,7 @@ width: 500px;
 .discount__title {
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-0-75);
+  color: #fff;
 }
 
 .discount__description {
@@ -455,14 +467,14 @@ width: 500px;
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
-  color: #fff;
+  color: #000000;
   border-radius: 50px;
   border: 2px solid hsl(var(--hue-color), 4%, 10%);
   transition: all 0.3s ease;
 }
 .items span.active,
 .items span:hover{
-  color: #fff;
+  color: #000000;
   background: hsl(var(--hue-color), 4%, 10%);
 }
 
@@ -487,7 +499,7 @@ width: 500px;
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
-  color: #fff;
+  color: #000000;
   border-radius: 50px;
   border: 2px solid hsl(var(--hue-color), 4%, 95%);
   transition: all 0.3s ease;
@@ -511,7 +523,7 @@ width: 500px;
   font-size: 16px;
   font-weight: 500;
   cursor: pointer;
-  color: #ffffff;
+  color: #000000;
   border-radius: 50px;
   border: 1px solid #4f4f4f;
   transition: all 0.3s ease;
@@ -536,14 +548,17 @@ width: 500px;
   font-size: 40px;
 }
 }
-}
+
 
 .subcategory.active,
 .subcategory:hover {
-  color: #000000;
+  color: #888888;
   background: hsl(var(--hue-color), 4%, 95%);
 }
-
+.img-gallery{
+  margin-top: 70px;
+  padding: 70px;
+}
 .gallery {
   display: flex;
   margin-top: 30px;
@@ -552,22 +567,47 @@ width: 500px;
   flex-wrap: wrap;
   margin:  auto;
 }
-
+.img-gallery button{
+  margin-top: 20px;
+  background-color: #ada196;
+  padding: 15px 35px;
+  color: #fff;
+  font-family: "Almarai", sans-serif;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+}
+.img-gallery button span{
+  padding-right: 5px;
+  font-size: 15px;
+}
 .cardgallery {
   border-radius: 12px;
-  display: none; /* Hide all items by default */
-  justify-content:center;
-  align-items: center;
-  flex-wrap: wrap;
+  background-color: #FFF;
+  box-shadow: 2px 4px 8px #f0f0f0;
+  box-shadow: 2px 4px 9px;
+  margin-left:15px;
+  margin: 15px;
 }
-
-.cardgallery .image {
-  padding: 7px;
+.gray{
+  background-color: #f7f7f7;
 }
-.cardgallery .image img{
+.cardgallery .i {
+  padding: 20px;
   width: 300px;
+  flex: 1;
+}
+.cardgallery  img{
+  width: 100%;
   height: 200px;
   object-fit: cover;
+  border-radius: 12px 12px 0 0 ;
+}
+.cardgallery  .i p{
+  margin: auto;
+  text-align: center;
+  color: #000000;
+  line-height: 2;
 }
 .image span {
   display: flex;
@@ -596,7 +636,7 @@ width: 500px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0.9);
-  background: #fff;
+  background: #000000;
   max-width: 700px;
   width: 100%;
   z-index: 5;
@@ -604,7 +644,7 @@ width: 500px;
   pointer-events: none;
   border-radius: 3px;
   padding: 0 5px 5px 5px;
-  box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 15px rgba(158, 158, 158, 0.2);
 }
 .preview-box.show{
   opacity: 1;
@@ -689,7 +729,11 @@ width: 500px;
 }
 
 
+
 /*=============== FOOTER ===============*/
+.footer{
+  background-color: #e5e5e5;
+}
 .footer__container {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   row-gap: 2rem;
@@ -712,11 +756,11 @@ width: 500px;
 }
 
 .footer__link {
-  color: var(--text-color);
+  color: #635e54;
 }
 
 .footer__link:hover {
-  color: var(--white-color);
+  color: #000000;
 }
 
 .footer__form {
@@ -761,11 +805,13 @@ width: 500px;
 .footer__copy {
   margin-top: 5rem;
   text-align: center;
+
 }
 
 .footer__copy-link {
   font-size: var(--smaller-font-size);
   color: var(--text-color-light);
+  color: #4f4f4f;
 }
 
 /*=============== SCROLL UP ===============*/
@@ -912,6 +958,8 @@ width: 500px;
   }
   .nav {
     height: calc(var(--header-height) + 1.5rem);
+    background: none;
+    box-shadow: none;
   }
   .nav__logo {
     width: 4rem;
@@ -1019,18 +1067,6 @@ width: 500px;
   .home__title{
     font-size: 20px;
     }
-    .cardgallery .image img{
-      width: 100%;
-      display: 1;
-    }
-    .wrapper {
-      padding: 0px;
-    }
-    .item{
-      padding-bottom:50px;
-    }
-    .cardgallery .image {
-      padding: 0px;
-    }
+
   
 }
